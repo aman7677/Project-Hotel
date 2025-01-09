@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+  }
+
+ .bg{
+  
+  background: url('./../assets/booking_bg.jpg') no-repeat center center/cover;
+ }
+
+  main {
+    padding: 2rem;
+  }
+
+  #booking{
+    margin-top: 50px;
+    
+  }
+
+  #booking-form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 1rem;
+    padding-left: 2rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgb(214, 233, 3);
+  }
+
+  #booking-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: white;
+  }
+
+  #booking-form input {
+    width: 95%;
+    padding: 0.7rem;
+    margin-bottom: 1rem;
+    background-color: rgb(251, 245, 237);
+    border-radius: 5px;
+    border: none;
+    outline: none;
+  }
+  #booking-form select,#booking-form button{
+    width: 95%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    background-color: rgb(251, 245, 237);
+    border-radius: 5px;
+    border: none;
+    outline: none;
+  }
+
+  #booking-form button {
+    background-color:#cb5c00;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: larger;
+    height: 45px;
+  }
+
+  #booking-form button:hover {
+    background-color:#c36a22;
+  }
+
+  
+
+  #x{
+    color: yellow;
+  }
+  #booking h2{
+    text-align: center;
+    align-items: center;
+    color: yellow;
+    padding-bottom: 10px;
+  }
