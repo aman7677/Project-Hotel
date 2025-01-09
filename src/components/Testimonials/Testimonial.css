@@ -1,5 +1,7 @@
+
 .swiper{
     width: 100% !important;
+
 }
 
 .testimonial{
@@ -31,7 +33,7 @@
 .content h3 span{
     display: block;
     font-size: 15px;
-    font-family: "poppins";
+    font-family:"poppins";
     font-weight: 300;
 }
 
